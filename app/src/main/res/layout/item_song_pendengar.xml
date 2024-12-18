@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul Lagu -->
+    <TextView
+        android:id="@+id/tvSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Title" />
+
+    <!-- Nama Artis -->
+    <TextView
+        android:id="@+id/tvSongArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Artist" />
+
+    <!-- Durasi Lagu -->
+    <TextView
+        android:id="@+id/tvSongDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration" />
+
+    <!-- Tombol Add to Favorite -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnAddToFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Favorite" />
+    </LinearLayout>
+</LinearLayout>
